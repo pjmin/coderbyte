@@ -1,0 +1,10 @@
+def FirstFactorial(num)
+
+  # code goes here
+  @result=1
+  1.upto(num) do |i|
+    @result *=i 
+  end
+  return @result
+         
+end
